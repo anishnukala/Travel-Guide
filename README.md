@@ -1,45 +1,37 @@
-# SE/COM S 3190 - Fall 2025
-
-## Assignment 1: Catalog of Products
+# Travel Guide
 
 ---
 
-### Overview
+## Overview
 
-_(Fill this section with a short description of your project. Explain the purpose of the catalog and what it contains.)_
+This project is a travel-themed product catalog website built with HTML, CSS, and Bootstrap. The site is designed to help users explore student-friendly travel ideas and useful travel products in a clean, responsive interface.
 
----
+The catalog contains three main pages. One page highlights top travel destinations with short descriptions and estimated weekly budgets. Another page presents travel essentials such as backpacks, power banks, adapters, packing cubes, travel towels, and refillable bottles. The final page answers common travel questions through an FAQ section.
 
-### Products Category 1 - Member 1
+The purpose of the project is to demonstrate structured web design, responsive layouts, navigation between pages, and organized presentation of catalog content.
 
-_(Fill this section with details about Member 1’s product category and products.)_
+## Pages
 
----
+- `TravelDestinations.html` - displays travel destinations with images, descriptions, and estimated weekly budgets  
+- `TravelEssentials.html` - displays travel products with images, descriptions, and prices  
+- `faq.html` - contains frequently asked travel questions using an accordion layout  
 
-### Products Category 2 - Member 2
+## Features
 
-_(Fill this section with details about Member 2’s product category and products.)_
+- Responsive Bootstrap navbar for navigation between pages  
+- Destination cards with short descriptions and weekly budget estimates  
+- Travel essentials cards with descriptions and prices  
+- FAQ page using a Bootstrap accordion  
+- Shared footer and consistent styling via `assets/styles.css`  
 
----
+## Project Structure
 
-### Authors
-
-_(Fill this section with author information: names, ISU emails, and short bios.)_
-
----
-
-### FAQ
-
-_(Fill this section with at least 5 frequently asked questions and answers.)_
-
----
-
-### Notes
-
-_(Fill this section with any additional notes, reminders, or tips for your project.)_ <br/>
-
-Otherwise, please remove this section.
-
----
-
-**Reminder:** Each section must be filled in by your team before final submission on September 23, 2025
+```text
+Travel-Guide/
+├── TravelDestinations.html
+├── TravelEssentials.html
+├── faq.html
+├── README.md
+└── assets/
+    ├── styles.css
+    └── images/
